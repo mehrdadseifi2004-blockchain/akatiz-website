@@ -172,20 +172,17 @@ export default function Home() {
               </h2>
               <div className="manifesto-copy fade">
                 <p>
-                  {/* <T
+                  <T
                     lang={lang}
-                    en="AKATIZZ builds his world around rap, visual tension and the identity of Mashhad — raw energy presented with a colder, cinematic language."
-                    fa="هارب جهان خودش را با رپ، تنش تصویری و هویت مشهد می‌سازد؛ انرژی خام با یک زبان سرد و سینمایی."
-                  /> */}
+                    en="TIZZ builds his world around trap, raw emotion and the energy of the streets — blending heavy production with a dark, modern visual language."
+                    fa="TIZZ دنیای خودش را حول ترپ، احساسات خام و انرژی خیابان‌ها می‌سازد؛ ترکیبی از پروداکشن سنگین، فضای تاریک و زبانی مدرن که موسیقی و تصویر را به یک هویت واحد تبدیل می‌کند."
+                  />
                 </p>
                 <small>
                   <T
                     lang={lang}
-                    en="akatizz is the voice of the streets and the outskirts of the city; a journey that began with freestyles, street gatherings, and tracks like “Bararom,” “Yere,” and more.
-In 2025, he began the professional chapter of his artistic career by participating in the “Azmayeshgah” program, and his story continues…
-Throughout this journey, akatizz has collaborated with producers and composers such as HATAM, MMRZ ST, and Sajjad Search.
-Director B has also been responsible for the artistic direction and visual identity of akatizz’s work."
-                    fa="هارب صدای خیابان و حاشیه شهر است؛ مسیری که با فری‌استایل، میتینگ و ترک‌هایی مثل «براروم» و «یره» و … آغاز شد. از سال ۱۴۰۴ با حضور در برنامه «آزمایشگاه» فصل حرفه‌ای فعالیت هنری خود را شروع کرد و داستانش همچنان ادامه دارد آهنگساز ها و تنظیم کننده هایی همچون حاتم، ممرضا ST و سجاد سرچ در این مسیر با هارب همکاری داشته اند همچنین Director B کارگردانی هنری و تصویر هارو بر عهده داشته"
+                    en="TIZZ is an independent trap artist driven by rhythm, attitude and an uncompromising vision. His sound moves between heavy 808s, dark atmospheres and sharp flows, creating a world that feels raw, cinematic and deeply personal. From underground sessions to official releases, TIZZ continues to shape his identity through music, visuals and collaborations — building a sound that belongs entirely to him."
+                    fa="TIZZ یک آرتیست مستقل ترپ است که مسیر خود را با ریتم، نگرش و نگاهی متفاوت دنبال می‌کند. صدای او میان 808های سنگین، فضاهای تاریک و فلوهای تیز حرکت می‌کند و جهانی خام، سینمایی و شخصی می‌سازد. از جلسات زیرزمینی تا انتشار آثار رسمی، TIZZ هویت هنری خود را از طریق موسیقی، تصویر و همکاری با هنرمندان دیگر شکل می‌دهد؛ مسیری که در نهایت به صدایی می‌رسد که کاملاً متعلق به خود اوست."
                   />
                 </small>
               </div>

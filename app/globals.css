@@ -566,7 +566,7 @@ body.hover .cursor {
 }
 .ticker {
   position: relative;
-  bottom: 12rem;
+  bottom: 17rem;
   z-index: 2;
   overflow: hidden;
   border-top: 1px solid var(--line);
