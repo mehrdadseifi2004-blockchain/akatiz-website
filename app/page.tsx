@@ -127,7 +127,7 @@ export default function Home() {
               <div className="hero-kicker">
                 <i />
                 <span>
-                  <T lang={lang} en="Sound from the east" fa="صدایی از شرق" />
+                  <T lang={lang} en="Sound from the east" fa="" />
                 </span>
               </div>
               <h1>AKATIZZ</h1>
@@ -160,7 +160,7 @@ export default function Home() {
                   <>
                     BASED IN
                     <br />
-                    <em>PERSIAN TRAP.</em>
+                    <em>PERSIAN TRAP</em>
                   </>
                 ) : (
                   <>
@@ -375,10 +375,10 @@ export default function Home() {
   {lang === "fa" ? (
     <>
       <span className="city-highlight">
-        مشهد
+      MASHHAD
       </span>
       <br />
-      دِرِه میه.
+      IS COMING ...
     </>
   ) : (
     <>
