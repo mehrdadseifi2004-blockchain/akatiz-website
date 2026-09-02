@@ -132,7 +132,7 @@ export default function Home() {
               </div>
               <h1>AKATIZZ</h1>
               <div className="hero-bottom">
-                <p className="hero-fa">از خراسان</p>
+                <p className="hero-fa"> </p>
                 <div className="hero-index">
                   <span>SCROLL TO ENTER</span>
                   <a className="scroll-orb hoverable" href="#identity">
@@ -158,15 +158,15 @@ export default function Home() {
               <h2 className="fade">
                 {lang === "fa" ? (
                   <>
-                    از
+                    BASED IN
                     <br />
-                    <em>خراسان.</em>
+                    <em>PERSIAN TRAP.</em>
                   </>
                 ) : (
                   <>
-                    FROM
+                    BASED IN
                     <br />
-                    <em>TRAP.</em>
+                    <em>PERSIAN TRAP.</em>
                   </>
                 )}
               </h2>
@@ -217,7 +217,7 @@ export default function Home() {
                 </div>
                 <div>
                   <div className="release-title">
-                    <h3>CITALOPRAM</h3>
+                    <h3>CRIMINAL</h3>
                     <span className="release-cta">↗</span>
                   </div>
                   <div className="release-meta">
