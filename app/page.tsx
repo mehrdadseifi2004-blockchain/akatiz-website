@@ -257,6 +257,15 @@ export default function Home() {
 
 [
   "01",
+  "Zanjani",
+  "Official Music Video",
+  "موزیک ویدیوی رسمی",
+  "4htQRyLK8VE",
+  "/images/zanjani.jpeg",
+],
+
+[
+  "02",
   "Criminal",
   "Official Music Video",
   "موزیک ویدیوی رسمی",
@@ -265,7 +274,7 @@ export default function Home() {
 ],
 
                 [
-                  "02",
+                  "03",
                   "Bussit",
                   "Official Music Video",
                   "موزیک ویدیوی رسمی",
@@ -274,7 +283,7 @@ export default function Home() {
                 ],
 
                 [
-                  "03",
+                  "04",
                   "LemOon",
                   "Official Music Audio",
                   "موزیک رسمی",
@@ -283,7 +292,7 @@ export default function Home() {
                 ],
 
                 [
-                  "04",
+                  "05",
                   "Bluff",
                   "Freestyle / Music Video",
                   "فری‌استایل / موزیک ویدیو",
@@ -292,7 +301,7 @@ export default function Home() {
                 ],
 
                 [
-                  "05",
+                  "06",
                   "Holdup",
                   "Official Music Audio",
                   "موزیک رسمی",
