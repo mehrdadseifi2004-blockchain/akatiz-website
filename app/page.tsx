@@ -60,9 +60,11 @@ export default function Home() {
   }, []);
   const youtube = "http://www.youtube.com/@Aka_Tizz";
   const soundcloud = "https://on.soundcloud.com/Ym9js8aEDgBSGJ3as6";
-  const instagram = "https://www.instagram.com/aka.tizz?igsi=MWdpaXNldW9raGYwZQ==";
+  const instagram =
+    "https://www.instagram.com/aka.tizz?igsi=MWdpaXNldW9raGYwZQ==";
   const applemusic = "https://music.apple.com/us/artist/akatizz/6791118112";
-  const spotify = "https://open.spotify.com/artist/5rFnIrFnpqWpLFaDaD6i6s?si=ioJyMxGrS7GLvcEhpzhuvw&utm_source=copy-link"
+  const spotify =
+    "https://open.spotify.com/artist/5rFnIrFnpqWpLFaDaD6i6s?si=ioJyMxGrS7GLvcEhpzhuvw&utm_source=copy-link";
 
   return (
     <>
@@ -254,27 +256,35 @@ export default function Home() {
 
             <div className="works-list">
               {[
+                [
+                  "01",
+                  "Narnia",
+                  "Official Music Video",
+                  "موزیک ویدیوی رسمی",
+                  "hYRBy5LzFhQ",
+                  "/images/narnia.jpg",
+                ],
 
-[
-  "01",
-  "Zanjani",
-  "Official Music Video",
-  "موزیک ویدیوی رسمی",
-  "4htQRyLK8VE",
-  "/images/zanjani.jpeg",
-],
-
-[
-  "02",
-  "Criminal",
-  "Official Music Video",
-  "موزیک ویدیوی رسمی",
-  "NihssJ1i4CU",
-  "/images/akatizheader.jpg",
-],
+                [
+                  "02",
+                  "Zanjani",
+                  "Official Music Video",
+                  "موزیک ویدیوی رسمی",
+                  "4htQRyLK8VE",
+                  "/images/zanjani.jpeg",
+                ],
 
                 [
                   "03",
+                  "Criminal",
+                  "Official Music Video",
+                  "موزیک ویدیوی رسمی",
+                  "NihssJ1i4CU",
+                  "/images/akatizheader.jpg",
+                ],
+
+                [
+                  "04",
                   "Bussit",
                   "Official Music Video",
                   "موزیک ویدیوی رسمی",
@@ -283,7 +293,7 @@ export default function Home() {
                 ],
 
                 [
-                  "04",
+                  "05",
                   "LemOon",
                   "Official Music Audio",
                   "موزیک رسمی",
@@ -292,7 +302,7 @@ export default function Home() {
                 ],
 
                 [
-                  "05",
+                  "06",
                   "Bluff",
                   "Freestyle / Music Video",
                   "فری‌استایل / موزیک ویدیو",
@@ -301,7 +311,7 @@ export default function Home() {
                 ],
 
                 [
-                  "06",
+                  "07",
                   "Holdup",
                   "Official Music Audio",
                   "موزیک رسمی",
@@ -309,14 +319,14 @@ export default function Home() {
                   "/images/holdup.bmp",
                 ],
 
-                  // [
-                  //   "06",
-                  //   "COMBATIVE",
-                  //   "Official Music Video",
-                  //   "موزیک ویدیوی رسمی",
-                  //   "TQ6R9IEnfEQ",
-                  //   "/images/combative.jpg",
-                  // ],
+                // [
+                //   "06",
+                //   "COMBATIVE",
+                //   "Official Music Video",
+                //   "موزیک ویدیوی رسمی",
+                //   "TQ6R9IEnfEQ",
+                //   "/images/combative.jpg",
+                // ],
               ].map(([n, title, kindEn, kindFa, id, image]) => (
                 <a
                   key={title}
@@ -367,38 +377,34 @@ export default function Home() {
           <div className="ticker">
             <div className="ticker-track">
               <span>
-                AKATIZZ <i>✦</i> MASHHAD <i>✦</i> KHORASAN <i>✦</i> EAST <i>✦</i>{" "}
-                RAP <i>✦</i> AKATIZZ <i>✦</i> MASHHAD <i>✦</i> KHORASAN <i>✦</i> PERSIAN <i>✦</i>{" "}
-                EAST <i>✦</i> RAP <i>✦</i> 
+                AKATIZZ <i>✦</i> MASHHAD <i>✦</i> KHORASAN <i>✦</i> EAST{" "}
+                <i>✦</i> RAP <i>✦</i> AKATIZZ <i>✦</i> MASHHAD <i>✦</i> KHORASAN{" "}
+                <i>✦</i> PERSIAN <i>✦</i> EAST <i>✦</i> RAP <i>✦</i>
               </span>
               <span>
-                AKATIZZ <i>✦</i> MASHHAD <i>✦</i> KHORASAN <i>✦</i> EAST <i>✦</i> PERSIAN <i>✦</i>{" "}
-                RAP <i>✦</i> AKATIZZ <i>✦</i> MASHHAD <i>✦</i> KHORASAN <i>✦</i>{" "}
-                EAST <i>✦</i> RAP <i>✦</i>
+                AKATIZZ <i>✦</i> MASHHAD <i>✦</i> KHORASAN <i>✦</i> EAST{" "}
+                <i>✦</i> PERSIAN <i>✦</i> RAP <i>✦</i> AKATIZZ <i>✦</i> MASHHAD{" "}
+                <i>✦</i> KHORASAN <i>✦</i> EAST <i>✦</i> RAP <i>✦</i>
               </span>
             </div>
           </div>
           <section className="connect" id="connect">
             <div className="connect-top">
-            <h2 className="fade">
-  {lang === "fa" ? (
-    <>
-      <span className="city-highlight">
-      MASHHAD
-      </span>
-      <br />
-      IS COMING ...
-    </>
-  ) : (
-    <>
-      <span className="city-highlight">
-        MASHHAD
-      </span>
-      <br />
-      IS COMING ...
-    </>
-  )}
-</h2>
+              <h2 className="fade">
+                {lang === "fa" ? (
+                  <>
+                    <span className="city-highlight">MASHHAD</span>
+                    <br />
+                    IS COMING ...
+                  </>
+                ) : (
+                  <>
+                    <span className="city-highlight">MASHHAD</span>
+                    <br />
+                    IS COMING ...
+                  </>
+                )}
+              </h2>
               <div className="connect-copy fade">
                 <T
                   lang={lang}
@@ -435,7 +441,6 @@ export default function Home() {
                 <strong>Spotify</strong>
                 <span className="go">↗</span>
               </a>
-
             </div>
           </section>
           <footer className="footer">
@@ -444,19 +449,19 @@ export default function Home() {
             </a>
             <span>MASHHAD / KHORASAN</span>
             <span>
-            <T
-  lang={lang}
-  en="Design & Development by "
-  fa="طراحی و توسعه توسط "
-/>
+              <T
+                lang={lang}
+                en="Design & Development by "
+                fa="طراحی و توسعه توسط "
+              />
 
-<a
-  href="https://mehrdadseif.ir"
-  target="_blank"
-  rel="noopener noreferrer"
->
-  Mehrdadseif.ir
-</a>
+              <a
+                href="https://mehrdadseif.ir"
+                target="_blank"
+                rel="noopener noreferrer"
+              >
+                Mehrdadseif.ir
+              </a>
             </span>
             <span>© 2026</span>
           </footer>
