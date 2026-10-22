@@ -258,6 +258,14 @@ export default function Home() {
               {[
                 [
                   "01",
+                  "G Bro",
+                  "Official Music Video",
+                  "موزیک ویدیوی رسمی",
+                  "DvjGyseFqd8",
+                  "/images/gbro.jpg",
+                ],
+                [
+                  "02",
                   "Narnia",
                   "Official Music Video",
                   "موزیک ویدیوی رسمی",
@@ -266,7 +274,7 @@ export default function Home() {
                 ],
 
                 [
-                  "02",
+                  "03",
                   "Zanjani",
                   "Official Music Video",
                   "موزیک ویدیوی رسمی",
@@ -275,7 +283,7 @@ export default function Home() {
                 ],
 
                 [
-                  "03",
+                  "04",
                   "Criminal",
                   "Official Music Video",
                   "موزیک ویدیوی رسمی",
@@ -284,7 +292,7 @@ export default function Home() {
                 ],
 
                 [
-                  "04",
+                  "05",
                   "Bussit",
                   "Official Music Video",
                   "موزیک ویدیوی رسمی",
@@ -293,7 +301,7 @@ export default function Home() {
                 ],
 
                 [
-                  "05",
+                  "06",
                   "LemOon",
                   "Official Music Audio",
                   "موزیک رسمی",
@@ -302,7 +310,7 @@ export default function Home() {
                 ],
 
                 [
-                  "06",
+                  "07",
                   "Bluff",
                   "Freestyle / Music Video",
                   "فری‌استایل / موزیک ویدیو",
@@ -311,7 +319,7 @@ export default function Home() {
                 ],
 
                 [
-                  "07",
+                  "08",
                   "Holdup",
                   "Official Music Audio",
                   "موزیک رسمی",
